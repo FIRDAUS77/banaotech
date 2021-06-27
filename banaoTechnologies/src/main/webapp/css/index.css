@@ -1,0 +1,553 @@
+@charset "ISO-8859-1";
+*{
+	box-sizing: border-box;
+}
+.body{
+	width:100%;
+	background-color: #E5E5E5;
+}
+.header{
+	/*position: absolute;*/
+	
+max-width: 100%;
+height: 72px;
+/*
+left: 0px;
+top: 0px;
+*/
+background: #FFFFFF;
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.12);
+}
+.logo{
+	position: absolute;
+width: 162.57px;
+height: 24px;
+left: 72px;
+top: 18px;
+}
+.search{
+position: absolute;
+width: 360px;
+height: 42px;
+left: 540px;
+top: 14px;
+
+background: #F2F2F2;
+border-radius: 21px;
+}
+.search-logo{
+	position: absolute;
+	left: 5.5%;
+	right: 14.63%;
+	top: 30.5%;
+	bottom: 14.63%;
+	color: #7A7A7A;
+}
+.search-text{
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 18px;
+	/* identical to box height */
+	margin-left:14%;
+	color: #5C5C5C;
+	margin-top: 2.99%;
+}
+.create-account p{
+	position: absolute;
+	width: 183px;
+	height: 21px;
+	left: 1121px;
+	top: 16px;
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 21px;
+	/* identical to box height */
+	font-weight:bold;
+	text-align: right;
+
+	color: #2E2E2E;
+}
+.banner{
+	min-width:100%;
+	max-width: 100%;
+}
+.image-text-cs{
+	position: absolute;
+width: 378px;
+height: 47px;
+left: 200px;
+top: 308px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 47px;
+
+color: #FFFFFF;
+	
+}
+.image-text-cs-follow{
+	position: absolute;
+width: 327px;
+height: 23px;
+left: 200px;
+top: 350px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 23px;
+
+color: #FFFFFF;
+}
+
+.bar1{
+	max-width: 100%;
+	height: 21px;
+	margin-left:7%;
+	margin-right:7%;
+	margin-top: 3%;
+}
+.bar1 .post{
+	
+	
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+padding: 9px;
+/* identical to box height */
+text-decoration:none;
+
+color: #000000;
+}
+.bar1 .items{
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color:#8A8A8A;
+padding: 9px;
+text-decoration:none;
+}
+.post:hover{
+	color:#E0E0E0;
+	background-color: gray;
+}
+.items:hover{
+	color:#E0E0E0;
+	background-color: gray;
+}
+.btn-post{
+
+width: 133px;
+height: 36px;
+
+background: #EDEEF0;
+border-radius: 4px;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+}
+.btn-join-group{
+width: 125px;
+height: 36px;
+
+text-align:right;
+background: #2F6CE5;
+border-radius: 4px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+
+
+
+color: #FFFFFF;
+}
+.btn-leave-group{
+width: 135px;
+height: 36px;
+
+text-align:right;
+background: #FFFFFF;
+border-radius: 4px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+
+
+
+color: black;
+}
+.line1{
+	border: 1px solid #E0E0E0;
+}
+.part{
+	display:flex;
+	max-width: 100%;
+	margin: 4% 7%;
+
+}
+.part1{
+	max-width: 56%;
+	
+	
+}
+
+.part2{
+	margin-left:15%;
+	max-width: 30%;
+	min-width:20%;
+	
+	float: left;
+}
+
+
+
+.article{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 21px;
+color: #8A8A8A;
+border: 1px solid #E0E0E0;
+margin: 12px;
+padding-bottom: 20px;
+}
+.article .img-1{
+	width: 100%;
+}
+
+.article .arti{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+margin-left:5%;
+color: #000000;
+
+}
+.article .txt{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 134.17%;
+color: #000000;
+margin-left:5%;
+}
+
+.article .txt2{
+	margin-left:5%;
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 134.17%;
+color: #5C5C5C;
+}
+.user{
+	display: flex;
+}
+
+.article .user1{
+	margin-left:3%;
+	
+width: 48px;
+height: 48px;
+
+border-radius: 24px;
+}
+
+.article .user1-name{
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 23px;
+color: #000000;
+
+}
+.article .view{
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+margin-left:40%;
+margin-top:3%;
+color: #525252;
+
+	
+}
+.article .shr{
+border-radius: 2px;
+margin-top:3%;
+margin-left: 4%;
+}
+.meetup{
+	margin-left:5%;
+	display:flex;
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #000000;
+}
+.web{
+	
+	width:90%;
+	background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px;
+margin: 3px 5%;
+color: #E56135;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140.4%;
+/* or 18px */
+
+text-align: center;
+
+}
+.web2{
+	width:90%;
+	background: #FFFFFF;
+border: 0.7px dashed #A9AEB8;
+box-sizing: border-box;
+border-radius: 8px;
+margin: 3px 5%;
+color: #02B875;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 140.4%;
+/* or 18px */
+
+text-align: center;
+
+}
+
+.loc p{
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 18px;
+	color: #000000;
+}
+.warning{
+	font-family: IBM Plex Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	opacity: 0.5;
+	
+}
+.grp{
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 18px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+
+color: #000000;
+}
+.login{
+	width: 500px;
+}
+.login-head{
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #008A45;
+	
+}
+.form{
+	
+width: 320px;
+height: 190px;
+padding-bottom: 20px;
+}
+.name{
+	width: 320px;
+height: 46px;
+	background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.ol{
+width:700px;
+height:540px;
+
+}
+
+.name1{
+	
+	display: flex;
+	
+}
+.i{
+	width:100%;
+	background: #F7F8FA;
+border: 1px solid #D9D9DB;
+box-sizing: border-box;
+}
+.account{
+width: 173px;
+height: 31px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+}
+.ac{
+	
+	width: 320px;
+height: 40px;
+margin-top:20px;
+
+
+background: #2F6CE5;
+border-radius: 20px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+.social{
+
+width: 320px;
+height: 38px;
+
+margin-top:15px;
+background: #FFFFFF;
+border: 0.6px solid #D9D9DB;
+box-sizing: border-box;
+border-radius: 2px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height, or 114% */
+
+
+color: #000000;
+}
+.log{
+	display: flex;
+}
+.yy{
+	
+width: 195px;
+height: 17px;
+margin-left:40px;
+
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 17px;
+/* identical to box height */
+
+text-align: right;
+
+color: #3D3D3D;
+}
+.term{
+	/*width: 317px;*/
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-align: right;
+letter-spacing: -0.008em;
+
+color: #000000;
+
+opacity: 0.6;
+	
+
+}
+.rec{
+	display: flex;
+	margin-top: 18px;
+}
+.gr{
+	width:170px;
+	font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 19px;
+line-height: 18px;
+/* identical to box height */
+padding-top:5px;
+margin-left:5%;
+color: #000000;
+
+}
+.follow{
+	
+	width: 60px;
+	
+height: 34px;
+
+
+background: #EDEEF0;
+border-radius: 14px;
+font-family: IBM Plex Sans;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 16px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
